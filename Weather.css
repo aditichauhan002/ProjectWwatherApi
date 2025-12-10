@@ -20,7 +20,9 @@ body {
       gap: 50px;
     }
 
-
+    .color{
+      color: red;
+    }
     h1{
         margin-bottom: 0px;
         margin-top: 70px;
