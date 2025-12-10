@@ -24,7 +24,7 @@ const url = `https://api.openweathermap.org/data/2.5/weather?q=${CITY_NAME.value
     para[1].innerText = `Max temp : ${parseInt(data.main.temp_max) + 3} °C Min temp : ${parseInt(data.main.temp_min) - 3}°C`
     para[2].innerText = `wind speed : ${data.wind.speed}m/s `
     para[3].innerText = `Humidity : ${data.main.humidity}% `
-    para[4].innerText  = `Clouds : ${data.clouds.all}% `
+    // para[4].innerText  = `Clouds : ${data.clouds.all}% `
   } catch (error) {
     alert(error)
 
