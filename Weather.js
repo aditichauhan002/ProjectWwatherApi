@@ -1,7 +1,4 @@
-let 
-
-
-CITY_NAME = document.getElementById('city')
+let CITY_NAME = document.getElementById('city')
 let para = document.getElementsByTagName("p")
 let heading_name = document.getElementsByTagName("h2")
 let resultBox = document.getElementById("result-box");
