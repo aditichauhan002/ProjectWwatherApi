@@ -49,6 +49,30 @@ body {
     }
   }
 
+  @media (min-width: 577px) and (max-width: 768px) {
+     input {
+      padding: 22px;
+      width:300px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      text-align: center;
+      margin: auto;
+    }
+  }
+
+  input {
+      padding: 22px;
+      width:500px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      text-align: center;
+      margin: auto;
+    }
+
  @media (max-width: 576px) {
     button {
       padding: 12px 20px;
@@ -70,8 +94,8 @@ body {
       font-size: 18px;
       border: none;
       border-radius: 8px;
-      /* background: #007BFF; */
-      background: red;
+      background: #007BFF;
+      /* background: red; */
       color: white;
       cursor: pointer;
       margin-bottom: 90px; 
@@ -85,11 +109,11 @@ button {
       font-size: 18px;
       border: none;
       border-radius: 8px;
-      /* background: #007BFF; */
-      background: yellow;
+      background: #007BFF;
+      
       color: white;
       cursor: pointer;
-      margin-bottom: 90px; 
+      margin-bottom: 100px; 
       width: 150px;
       margin: auto;
     }
