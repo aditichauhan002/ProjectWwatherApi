@@ -64,8 +64,35 @@ body {
       margin: auto;
     }
   }
+@media (min-width: 577px) and (max-width: 768px) {
+  button {
+      padding: 12px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      /* background: #007BFF; */
+      background: red;
+      color: white;
+      cursor: pointer;
+      margin-bottom: 90px; 
+      width: 250px;
+      margin: auto;
+    }
+}
 
-
+button {
+      padding: 12px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      /* background: #007BFF; */
+      background: yellow;
+      color: white;
+      cursor: pointer;
+      margin-bottom: 90px; 
+      width: 150px;
+      margin: auto;
+    }
     button:hover {
       background: #0056b3;
     }
