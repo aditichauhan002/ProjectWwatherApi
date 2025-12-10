@@ -1,25 +1,24 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body {
-     height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      background: url("https://media.istockphoto.com/id/477921526/photo/flying-above-the-clouds-view-from-the-airplane.jpg?s=612x612&w=0&k=20&c=hIdwXijDKkbOFCdIo4lOOqcKXjBBnuRXBd_vkzAI-_M=") ;
-      background-repeat: no-repeat;
-      background-size: cover;
-      font-family: Arial, sans-serif;
-      color: white;
-      text-align: center;
-      overflow: hidden; 
-      gap: 50px;
-    }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("https://study.com/cimages/videopreview/weather-definition-and-types_113503.jpg"
+    ) no-repeat center/cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  gap: 40px;
+}
+
+<<<<<<< HEAD
     
     h1{
         margin-bottom: 0px;
@@ -177,9 +176,80 @@ button {
       margin-bottom: 15px;
       color: rgb(19, 117, 156);
     }
+=======
+.color {
+  color: black;
+}
 
-    .results p {
-      font-size: 20px;
-      margin: 5px 0;
-      color: black;
-    }
+/* Smoothly responsive font using clamp() — adjusts on all screens */
+h1 {
+  font-size: clamp(35px, 6vw, 90px);
+  text-shadow: 2px 5px 8px black;
+  margin-top: 20px;
+}
+
+/* Input + Button Container */
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+/* Input */
+input {
+  padding: 18px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+/* Button */
+button {
+  padding: 14px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: blue;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: rgb(78, 78, 170);
+}
+
+/* Result Box */
+.results {
+  display: none;
+  margin-top: 25px;
+  width: 100%;
+  max-width: 450px;
+
+  /* background: rgba(255, 255, 255, 0.75); */
+  padding: 20px;
+  /* border-radius: 15px; */
+  color: black;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); */
+}
+>>>>>>> 3980361 (change in html and css file)
+
+.results h2 {
+  font-size: clamp(28px, 4vw, 40px);
+  margin-bottom: 12px;
+  color: rgb(19, 117, 156);
+}
+
+.results p {
+  font-size: clamp(16px, 3vw, 22px);
+  margin: 6px 0;
+}
