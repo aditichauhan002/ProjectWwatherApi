@@ -33,7 +33,7 @@ body {
         gap: 20px;
     }
 
-    @media (max-width: 576px) {
+    @media (max-width: 667px) {
 
       input {
       padding: 22px;
@@ -47,7 +47,7 @@ body {
     }
   }
 
-  @media (min-width: 577px) and (max-width: 768px) {
+  @media (min-width: 668px) and (max-width: 768px) {
      input {
       padding: 22px;
       width:200px;
@@ -71,7 +71,7 @@ body {
       margin: auto;
     }
 
- @media (max-width: 677px) {
+ @media (max-width: 667px) {
     button {
       padding: 12px 20px;
       font-size: 18px;
@@ -86,7 +86,7 @@ body {
       margin: auto;
     }
   }
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 668px) and (max-width: 768px) {
   button {
       padding: 12px 20px;
       font-size: 18px;
@@ -140,7 +140,7 @@ button {
     }
   }
 
-  @media (min-width: 577px) and (max-width: 768px) {
+  @media (min-width: 668px) and (max-width: 768px) {
   .results {
       display: none;
       /* background: rgba(0, 0, 0, 0.6);s */
